@@ -3,7 +3,13 @@ pipeline {
      stages {
          stage('Build') {
              steps {
+<<<<<<< HEAD
                  sh 'echo "Hello World, this is Blue Ocean Master"'
+||||||| merged common ancestors
+                 sh 'echo "Hello World, this is Blue Ocean"'
+=======
+                 sh 'echo "Hello World, this is Blue Ocean Dev Example"'
+>>>>>>> Development
                  sh '''
                      echo "Multiline shell steps works too"
                      ls -lah
